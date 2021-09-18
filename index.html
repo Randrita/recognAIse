@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>recognAIse</title>
+</head>
+
+<body>
+
+
+    <div class=" me d-flex align-items-center justify-content-between">
+
+        <div class="gort" style="margin:10% 0 0 5%">
+            <div class="beam">
+                <div></div>
+            </div>
+            <div class="head">
+                <div class="visor">
+                    <div class="cover"></div>
+                    <div class="powerup">
+                        <div class="eye"></div>
+                    </div>
+                </div>
+                <div class="ears">
+                    <div class="ear"></div>
+                    <div class="ear"></div>
+                </div>
+            </div>
+            <div class="body">
+                <div class="arm"></div>
+                <div class="arm"></div>
+            </div>
+        </div>
+        <div class="ab">
+            <br>
+            <h1>recognAIse<br></h1>
+            <br>
+            <p>A tool for extracting information from your image collection.</p>
+            <br>
+            <a class="btn btn-warning" href="second.html" role="button">Explore</a>
+
+        </div>
+
+
+        <!-- <div class="bg-music">
+            <div class="bg-music">
+                 <audio id="mymusic" src="no.mp3" loop=""> 
+                    <audio controls id="music" src="no.mp3" type="audio/mpeg"> 
+                </audio>
+                <button class="butn">
+                 <i class="fa fa-play-circle-o"></i>
+                <i class="fa fa-pause-circle-o"></i>
+                </button>  -->
+
+        <!-- <button onclick="play()" type="button" class="butn"><i class="fa fa-play-circle-o"></i> </button>
+        <button onclick="pause()" type="button"><i class="fa fa-pause-circle-o"></i></button>
+            </div> 
+        </div>  -->
+
+    </div>
+    <div>
+        <audio id="music">
+           <source src="song.mp3" type="audio/mpeg"> 
+       </audio>
+
+
+        <button onclick="play()" type="button" class="butn" style="margin-left: 90%; margin-bottom:10%"><i class="fa fa-play-circle-o"></i> </button>
+        <button onclick="pause()" type="button" class="" style="margin-left: 90%; margin-bottom:10%"><i class="fa fa-pause-circle-o"></i></button>
+
+    </div>
+
+    <div class="container   my-5 ">
+        <div class=" footer d-flex align-items-center justify-content-between ">
+            <div class="fo">
+                <h5>CONTACT US</h5>
+                <p>
+                    + 123 456 789<br> zippy@skype
+                    <br> enquiry@zippy.com
+                </p>
+            </div>
+            <div class="fo">
+                <h5>FOLLOW US</h5>
+                <div class="follow">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="follow">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+
+
+
+            </div>
+            <div class="fo">
+                <h5>CONTACT US</h5>
+                <p>
+                    + 123 456 789<br> zippy@skype
+                    <br> enquiry@zippy.com
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+    <script>
+        var myMusic = document.getElementById("music");
+
+        function play() {
+
+            myMusic.play();
+
+        }
+
+
+
+        function pause() {
+
+            myMusic.pause();
+
+        }
+    </script>
+
+
+    <!-- <script type="text/javascript">
+        $ (document).ready(function(){
+      
+         $(".btn .fa-play-circle-o").on('click',function(){
+          $(this).hide();
+          $(".fa-pause-circle-o").fadeIn();
+            $("#mymusic")[0].play();
+         });
+      
+         $(".butn .fa-pause-circle-o").on('click',function(){
+          $(this).hide();
+          $(".fa-play-circle-o").fadeIn();
+            $("#mymusic")[0].pause();
+         });
+      
+       });
+       </script> -->
+</body>
+</html

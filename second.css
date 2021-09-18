@@ -1,0 +1,7450 @@
+button#component {
+    width: 290px;
+    height: 60px;
+    border: none;
+    display: flex;
+    background: transparent;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+}
+
+button#component:focus {
+    outline: none;
+}
+
+button#component .sqr {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    transform-origin: 50% 50%;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    transition-duration: 300ms;
+    transition-delay: 2000ms;
+}
+
+button#component .label {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+button#component .label::before {
+    content: 'LOCKED';
+    margin: auto;
+    transition: 300ms ease-out all 2000ms;
+}
+
+button#component:hover {
+    animation: blinking 2000ms ease-in 1;
+}
+
+button#component:hover .sqr {
+    transform: scale(0.1);
+}
+
+button#component:hover .sqr-174 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-169 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-164 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-159 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-154 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-149 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-144 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-139 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-134 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-129 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-124 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-119 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-114 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-109 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-104 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-99 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-94 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-89 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-84 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-79 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-74 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-69 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-64 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-59 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-54 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-49 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-44 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-39 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-34 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-29 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-24 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-19 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-14 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-9 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-4 {
+    background-color: #c7e3f9;
+}
+
+button#component:hover .sqr-173 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-171 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-169 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-167 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-165 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-163 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-161 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-159 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-157 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-155 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-153 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-151 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-149 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-147 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-145 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-143 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-141 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-139 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-137 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-135 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-133 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-131 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-129 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-127 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-125 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-123 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-121 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-119 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-117 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-115 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-113 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-111 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-109 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-107 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-105 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-103 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-101 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-99 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-97 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-95 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-93 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-91 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-89 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-87 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-85 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-83 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-81 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-79 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-77 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-75 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-73 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-71 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-69 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-67 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-65 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-63 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-61 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-59 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-57 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-55 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-53 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-51 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-49 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-47 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-45 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-43 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-41 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-39 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-37 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-35 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-33 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-31 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-29 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-27 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-25 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-23 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-21 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-19 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-17 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-15 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-13 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-11 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-9 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-7 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-5 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-3 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-1 {
+    background-color: #f5d546;
+}
+
+button#component:hover .sqr-170 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-166 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-162 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-158 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-154 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-150 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-146 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-142 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-138 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-134 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-130 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-126 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-122 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-118 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-114 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-110 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-106 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-102 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-98 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-94 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-90 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-86 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-82 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-78 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-74 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-70 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-66 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-62 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-58 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-54 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-50 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-46 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-42 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-38 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-34 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-30 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-26 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-22 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-18 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-14 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-10 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-6 {
+    background-color: #d64444;
+}
+
+button#component:hover .sqr-2 {
+    background-color: #d64444;
+}
+
+button#component:hover .label::before {
+    animation: decrypt 400ms 2000ms linear forwards 1;
+    z-index: 2;
+    color: #fff;
+}
+
+@-webkit-keyframes decrypt {
+    0% {
+        content: 'LOCKED';
+    }
+    10% {
+        content: 'YdJZidnejD';
+    }
+    20% {
+        content: 'oz9ejdjd';
+    }
+    30% {
+        content: 'idnNDeit7';
+    }
+    40% {
+        content: 'JEDc83jdE';
+    }
+    50% {
+        content: 'JEDEudPe';
+    }
+    60% {
+        content: 'EKDOdreif';
+    }
+    70% {
+        content: 'fkzeef9e';
+    }
+    80% {
+        content: 'fie73Rnf0';
+    }
+    90% {
+        content: 'iedi9OE';
+    }
+    100% {
+        content: 'UNLOCKED';
+    }
+}
+
+@-webkit-keyframes blinking {
+    from,
+    to,
+    50% {
+        opacity: 1;
+    }
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+#component.following .sqr-1 {
+    transition-delay: 2002ms;
+}
+
+#component.following .sqr-2 {
+    transition-delay: 2004ms;
+}
+
+#component.following .sqr-3 {
+    transition-delay: 2006ms;
+}
+
+#component.following .sqr-4 {
+    transition-delay: 2008ms;
+}
+
+#component.following .sqr-5 {
+    transition-delay: 2010ms;
+}
+
+#component.following .sqr-6 {
+    transition-delay: 2012ms;
+}
+
+#component.following .sqr-7 {
+    transition-delay: 2014ms;
+}
+
+#component.following .sqr-8 {
+    transition-delay: 2016ms;
+}
+
+#component.following .sqr-9 {
+    transition-delay: 2018ms;
+}
+
+#component.following .sqr-10 {
+    transition-delay: 2020ms;
+}
+
+#component.following .sqr-11 {
+    transition-delay: 2022ms;
+}
+
+#component.following .sqr-12 {
+    transition-delay: 2024ms;
+}
+
+#component.following .sqr-13 {
+    transition-delay: 2026ms;
+}
+
+#component.following .sqr-14 {
+    transition-delay: 2028ms;
+}
+
+#component.following .sqr-15 {
+    transition-delay: 2030ms;
+}
+
+#component.following .sqr-16 {
+    transition-delay: 2032ms;
+}
+
+#component.following .sqr-17 {
+    transition-delay: 2034ms;
+}
+
+#component.following .sqr-18 {
+    transition-delay: 2036ms;
+}
+
+#component.following .sqr-19 {
+    transition-delay: 2038ms;
+}
+
+#component.following .sqr-20 {
+    transition-delay: 2040ms;
+}
+
+#component.following .sqr-21 {
+    transition-delay: 2042ms;
+}
+
+#component.following .sqr-22 {
+    transition-delay: 2044ms;
+}
+
+#component.following .sqr-23 {
+    transition-delay: 2046ms;
+}
+
+#component.following .sqr-24 {
+    transition-delay: 2048ms;
+}
+
+#component.following .sqr-25 {
+    transition-delay: 2050ms;
+}
+
+#component.following .sqr-26 {
+    transition-delay: 2052ms;
+}
+
+#component.following .sqr-27 {
+    transition-delay: 2054ms;
+}
+
+#component.following .sqr-28 {
+    transition-delay: 2056ms;
+}
+
+#component.following .sqr-29 {
+    transition-delay: 2058ms;
+}
+
+#component.following .sqr-30 {
+    transition-delay: 2060ms;
+}
+
+#component.following .sqr-31 {
+    transition-delay: 2062ms;
+}
+
+#component.following .sqr-32 {
+    transition-delay: 2064ms;
+}
+
+#component.following .sqr-33 {
+    transition-delay: 2066ms;
+}
+
+#component.following .sqr-34 {
+    transition-delay: 2068ms;
+}
+
+#component.following .sqr-35 {
+    transition-delay: 2070ms;
+}
+
+#component.following .sqr-36 {
+    transition-delay: 2072ms;
+}
+
+#component.following .sqr-37 {
+    transition-delay: 2074ms;
+}
+
+#component.following .sqr-38 {
+    transition-delay: 2076ms;
+}
+
+#component.following .sqr-39 {
+    transition-delay: 2078ms;
+}
+
+#component.following .sqr-40 {
+    transition-delay: 2080ms;
+}
+
+#component.following .sqr-41 {
+    transition-delay: 2082ms;
+}
+
+#component.following .sqr-42 {
+    transition-delay: 2084ms;
+}
+
+#component.following .sqr-43 {
+    transition-delay: 2086ms;
+}
+
+#component.following .sqr-44 {
+    transition-delay: 2088ms;
+}
+
+#component.following .sqr-45 {
+    transition-delay: 2090ms;
+}
+
+#component.following .sqr-46 {
+    transition-delay: 2092ms;
+}
+
+#component.following .sqr-47 {
+    transition-delay: 2094ms;
+}
+
+#component.following .sqr-48 {
+    transition-delay: 2096ms;
+}
+
+#component.following .sqr-49 {
+    transition-delay: 2098ms;
+}
+
+#component.following .sqr-50 {
+    transition-delay: 2100ms;
+}
+
+#component.following .sqr-51 {
+    transition-delay: 2102ms;
+}
+
+#component.following .sqr-52 {
+    transition-delay: 2104ms;
+}
+
+#component.following .sqr-53 {
+    transition-delay: 2106ms;
+}
+
+#component.following .sqr-54 {
+    transition-delay: 2108ms;
+}
+
+#component.following .sqr-55 {
+    transition-delay: 2110ms;
+}
+
+#component.following .sqr-56 {
+    transition-delay: 2112ms;
+}
+
+#component.following .sqr-57 {
+    transition-delay: 2114ms;
+}
+
+#component.following .sqr-58 {
+    transition-delay: 2116ms;
+}
+
+#component.following .sqr-59 {
+    transition-delay: 2118ms;
+}
+
+#component.following .sqr-60 {
+    transition-delay: 2120ms;
+}
+
+#component.following .sqr-61 {
+    transition-delay: 2122ms;
+}
+
+#component.following .sqr-62 {
+    transition-delay: 2124ms;
+}
+
+#component.following .sqr-63 {
+    transition-delay: 2126ms;
+}
+
+#component.following .sqr-64 {
+    transition-delay: 2128ms;
+}
+
+#component.following .sqr-65 {
+    transition-delay: 2130ms;
+}
+
+#component.following .sqr-66 {
+    transition-delay: 2132ms;
+}
+
+#component.following .sqr-67 {
+    transition-delay: 2134ms;
+}
+
+#component.following .sqr-68 {
+    transition-delay: 2136ms;
+}
+
+#component.following .sqr-69 {
+    transition-delay: 2138ms;
+}
+
+#component.following .sqr-70 {
+    transition-delay: 2140ms;
+}
+
+#component.following .sqr-71 {
+    transition-delay: 2142ms;
+}
+
+#component.following .sqr-72 {
+    transition-delay: 2144ms;
+}
+
+#component.following .sqr-73 {
+    transition-delay: 2146ms;
+}
+
+#component.following .sqr-74 {
+    transition-delay: 2148ms;
+}
+
+#component.following .sqr-75 {
+    transition-delay: 2150ms;
+}
+
+#component.following .sqr-76 {
+    transition-delay: 2152ms;
+}
+
+#component.following .sqr-77 {
+    transition-delay: 2154ms;
+}
+
+#component.following .sqr-78 {
+    transition-delay: 2156ms;
+}
+
+#component.following .sqr-79 {
+    transition-delay: 2158ms;
+}
+
+#component.following .sqr-80 {
+    transition-delay: 2160ms;
+}
+
+#component.following .sqr-81 {
+    transition-delay: 2162ms;
+}
+
+#component.following .sqr-82 {
+    transition-delay: 2164ms;
+}
+
+#component.following .sqr-83 {
+    transition-delay: 2166ms;
+}
+
+#component.following .sqr-84 {
+    transition-delay: 2168ms;
+}
+
+#component.following .sqr-85 {
+    transition-delay: 2170ms;
+}
+
+#component.following .sqr-86 {
+    transition-delay: 2172ms;
+}
+
+#component.following .sqr-87 {
+    transition-delay: 2174ms;
+}
+
+#component.following .sqr-88 {
+    transition-delay: 2176ms;
+}
+
+#component.following .sqr-89 {
+    transition-delay: 2178ms;
+}
+
+#component.following .sqr-90 {
+    transition-delay: 2180ms;
+}
+
+#component.following .sqr-91 {
+    transition-delay: 2182ms;
+}
+
+#component.following .sqr-92 {
+    transition-delay: 2184ms;
+}
+
+#component.following .sqr-93 {
+    transition-delay: 2186ms;
+}
+
+#component.following .sqr-94 {
+    transition-delay: 2188ms;
+}
+
+#component.following .sqr-95 {
+    transition-delay: 2190ms;
+}
+
+#component.following .sqr-96 {
+    transition-delay: 2192ms;
+}
+
+#component.following .sqr-97 {
+    transition-delay: 2194ms;
+}
+
+#component.following .sqr-98 {
+    transition-delay: 2196ms;
+}
+
+#component.following .sqr-99 {
+    transition-delay: 2198ms;
+}
+
+#component.following .sqr-100 {
+    transition-delay: 2200ms;
+}
+
+#component.following .sqr-101 {
+    transition-delay: 2202ms;
+}
+
+#component.following .sqr-102 {
+    transition-delay: 2204ms;
+}
+
+#component.following .sqr-103 {
+    transition-delay: 2206ms;
+}
+
+#component.following .sqr-104 {
+    transition-delay: 2208ms;
+}
+
+#component.following .sqr-105 {
+    transition-delay: 2210ms;
+}
+
+#component.following .sqr-106 {
+    transition-delay: 2212ms;
+}
+
+#component.following .sqr-107 {
+    transition-delay: 2214ms;
+}
+
+#component.following .sqr-108 {
+    transition-delay: 2216ms;
+}
+
+#component.following .sqr-109 {
+    transition-delay: 2218ms;
+}
+
+#component.following .sqr-110 {
+    transition-delay: 2220ms;
+}
+
+#component.following .sqr-111 {
+    transition-delay: 2222ms;
+}
+
+#component.following .sqr-112 {
+    transition-delay: 2224ms;
+}
+
+#component.following .sqr-113 {
+    transition-delay: 2226ms;
+}
+
+#component.following .sqr-114 {
+    transition-delay: 2228ms;
+}
+
+#component.following .sqr-115 {
+    transition-delay: 2230ms;
+}
+
+#component.following .sqr-116 {
+    transition-delay: 2232ms;
+}
+
+#component.following .sqr-117 {
+    transition-delay: 2234ms;
+}
+
+#component.following .sqr-118 {
+    transition-delay: 2236ms;
+}
+
+#component.following .sqr-119 {
+    transition-delay: 2238ms;
+}
+
+#component.following .sqr-120 {
+    transition-delay: 2240ms;
+}
+
+#component.following .sqr-121 {
+    transition-delay: 2242ms;
+}
+
+#component.following .sqr-122 {
+    transition-delay: 2244ms;
+}
+
+#component.following .sqr-123 {
+    transition-delay: 2246ms;
+}
+
+#component.following .sqr-124 {
+    transition-delay: 2248ms;
+}
+
+#component.following .sqr-125 {
+    transition-delay: 2250ms;
+}
+
+#component.following .sqr-126 {
+    transition-delay: 2252ms;
+}
+
+#component.following .sqr-127 {
+    transition-delay: 2254ms;
+}
+
+#component.following .sqr-128 {
+    transition-delay: 2256ms;
+}
+
+#component.following .sqr-129 {
+    transition-delay: 2258ms;
+}
+
+#component.following .sqr-130 {
+    transition-delay: 2260ms;
+}
+
+#component.following .sqr-131 {
+    transition-delay: 2262ms;
+}
+
+#component.following .sqr-132 {
+    transition-delay: 2264ms;
+}
+
+#component.following .sqr-133 {
+    transition-delay: 2266ms;
+}
+
+#component.following .sqr-134 {
+    transition-delay: 2268ms;
+}
+
+#component.following .sqr-135 {
+    transition-delay: 2270ms;
+}
+
+#component.following .sqr-136 {
+    transition-delay: 2272ms;
+}
+
+#component.following .sqr-137 {
+    transition-delay: 2274ms;
+}
+
+#component.following .sqr-138 {
+    transition-delay: 2276ms;
+}
+
+#component.following .sqr-139 {
+    transition-delay: 2278ms;
+}
+
+#component.following .sqr-140 {
+    transition-delay: 2280ms;
+}
+
+#component.following .sqr-141 {
+    transition-delay: 2282ms;
+}
+
+#component.following .sqr-142 {
+    transition-delay: 2284ms;
+}
+
+#component.following .sqr-143 {
+    transition-delay: 2286ms;
+}
+
+#component.following .sqr-144 {
+    transition-delay: 2288ms;
+}
+
+#component.following .sqr-145 {
+    transition-delay: 2290ms;
+}
+
+#component.following .sqr-146 {
+    transition-delay: 2292ms;
+}
+
+#component.following .sqr-147 {
+    transition-delay: 2294ms;
+}
+
+#component.following .sqr-148 {
+    transition-delay: 2296ms;
+}
+
+#component.following .sqr-149 {
+    transition-delay: 2298ms;
+}
+
+#component.following .sqr-150 {
+    transition-delay: 2300ms;
+}
+
+#component.following .sqr-151 {
+    transition-delay: 2302ms;
+}
+
+#component.following .sqr-152 {
+    transition-delay: 2304ms;
+}
+
+#component.following .sqr-153 {
+    transition-delay: 2306ms;
+}
+
+#component.following .sqr-154 {
+    transition-delay: 2308ms;
+}
+
+#component.following .sqr-155 {
+    transition-delay: 2310ms;
+}
+
+#component.following .sqr-156 {
+    transition-delay: 2312ms;
+}
+
+#component.following .sqr-157 {
+    transition-delay: 2314ms;
+}
+
+#component.following .sqr-158 {
+    transition-delay: 2316ms;
+}
+
+#component.following .sqr-159 {
+    transition-delay: 2318ms;
+}
+
+#component.following .sqr-160 {
+    transition-delay: 2320ms;
+}
+
+#component.following .sqr-161 {
+    transition-delay: 2322ms;
+}
+
+#component.following .sqr-162 {
+    transition-delay: 2324ms;
+}
+
+#component.following .sqr-163 {
+    transition-delay: 2326ms;
+}
+
+#component.following .sqr-164 {
+    transition-delay: 2328ms;
+}
+
+#component.following .sqr-165 {
+    transition-delay: 2330ms;
+}
+
+#component.following .sqr-166 {
+    transition-delay: 2332ms;
+}
+
+#component.following .sqr-167 {
+    transition-delay: 2334ms;
+}
+
+#component.following .sqr-168 {
+    transition-delay: 2336ms;
+}
+
+#component.following .sqr-169 {
+    transition-delay: 2338ms;
+}
+
+#component.following .sqr-170 {
+    transition-delay: 2340ms;
+}
+
+#component.following .sqr-171 {
+    transition-delay: 2342ms;
+}
+
+#component.following .sqr-172 {
+    transition-delay: 2344ms;
+}
+
+#component.following .sqr-173 {
+    transition-delay: 2346ms;
+}
+
+#component.following .sqr-174 {
+    transition-delay: 2348ms;
+}
+
+#component.row .sqr-174 {
+    transition-delay: 2000ms;
+}
+
+#component.row .sqr-145 {
+    transition-delay: 2000ms;
+}
+
+#component.row .sqr-116 {
+    transition-delay: 2000ms;
+}
+
+#component.row .sqr-87 {
+    transition-delay: 2000ms;
+}
+
+#component.row .sqr-58 {
+    transition-delay: 2000ms;
+}
+
+#component.row .sqr-29 {
+    transition-delay: 2000ms;
+}
+
+#component.row .sqr-175 {
+    transition-delay: 2010ms;
+}
+
+#component.row .sqr-146 {
+    transition-delay: 2010ms;
+}
+
+#component.row .sqr-117 {
+    transition-delay: 2010ms;
+}
+
+#component.row .sqr-88 {
+    transition-delay: 2010ms;
+}
+
+#component.row .sqr-59 {
+    transition-delay: 2010ms;
+}
+
+#component.row .sqr-30 {
+    transition-delay: 2010ms;
+}
+
+#component.row .sqr-1 {
+    transition-delay: 2010ms;
+}
+
+#component.row .sqr-176 {
+    transition-delay: 2020ms;
+}
+
+#component.row .sqr-147 {
+    transition-delay: 2020ms;
+}
+
+#component.row .sqr-118 {
+    transition-delay: 2020ms;
+}
+
+#component.row .sqr-89 {
+    transition-delay: 2020ms;
+}
+
+#component.row .sqr-60 {
+    transition-delay: 2020ms;
+}
+
+#component.row .sqr-31 {
+    transition-delay: 2020ms;
+}
+
+#component.row .sqr-2 {
+    transition-delay: 2020ms;
+}
+
+#component.row .sqr-177 {
+    transition-delay: 2030ms;
+}
+
+#component.row .sqr-148 {
+    transition-delay: 2030ms;
+}
+
+#component.row .sqr-119 {
+    transition-delay: 2030ms;
+}
+
+#component.row .sqr-90 {
+    transition-delay: 2030ms;
+}
+
+#component.row .sqr-61 {
+    transition-delay: 2030ms;
+}
+
+#component.row .sqr-32 {
+    transition-delay: 2030ms;
+}
+
+#component.row .sqr-3 {
+    transition-delay: 2030ms;
+}
+
+#component.row .sqr-178 {
+    transition-delay: 2040ms;
+}
+
+#component.row .sqr-149 {
+    transition-delay: 2040ms;
+}
+
+#component.row .sqr-120 {
+    transition-delay: 2040ms;
+}
+
+#component.row .sqr-91 {
+    transition-delay: 2040ms;
+}
+
+#component.row .sqr-62 {
+    transition-delay: 2040ms;
+}
+
+#component.row .sqr-33 {
+    transition-delay: 2040ms;
+}
+
+#component.row .sqr-4 {
+    transition-delay: 2040ms;
+}
+
+#component.row .sqr-179 {
+    transition-delay: 2050ms;
+}
+
+#component.row .sqr-150 {
+    transition-delay: 2050ms;
+}
+
+#component.row .sqr-121 {
+    transition-delay: 2050ms;
+}
+
+#component.row .sqr-92 {
+    transition-delay: 2050ms;
+}
+
+#component.row .sqr-63 {
+    transition-delay: 2050ms;
+}
+
+#component.row .sqr-34 {
+    transition-delay: 2050ms;
+}
+
+#component.row .sqr-5 {
+    transition-delay: 2050ms;
+}
+
+#component.row .sqr-180 {
+    transition-delay: 2060ms;
+}
+
+#component.row .sqr-151 {
+    transition-delay: 2060ms;
+}
+
+#component.row .sqr-122 {
+    transition-delay: 2060ms;
+}
+
+#component.row .sqr-93 {
+    transition-delay: 2060ms;
+}
+
+#component.row .sqr-64 {
+    transition-delay: 2060ms;
+}
+
+#component.row .sqr-35 {
+    transition-delay: 2060ms;
+}
+
+#component.row .sqr-6 {
+    transition-delay: 2060ms;
+}
+
+#component.row .sqr-181 {
+    transition-delay: 2070ms;
+}
+
+#component.row .sqr-152 {
+    transition-delay: 2070ms;
+}
+
+#component.row .sqr-123 {
+    transition-delay: 2070ms;
+}
+
+#component.row .sqr-94 {
+    transition-delay: 2070ms;
+}
+
+#component.row .sqr-65 {
+    transition-delay: 2070ms;
+}
+
+#component.row .sqr-36 {
+    transition-delay: 2070ms;
+}
+
+#component.row .sqr-7 {
+    transition-delay: 2070ms;
+}
+
+#component.row .sqr-182 {
+    transition-delay: 2080ms;
+}
+
+#component.row .sqr-153 {
+    transition-delay: 2080ms;
+}
+
+#component.row .sqr-124 {
+    transition-delay: 2080ms;
+}
+
+#component.row .sqr-95 {
+    transition-delay: 2080ms;
+}
+
+#component.row .sqr-66 {
+    transition-delay: 2080ms;
+}
+
+#component.row .sqr-37 {
+    transition-delay: 2080ms;
+}
+
+#component.row .sqr-8 {
+    transition-delay: 2080ms;
+}
+
+#component.row .sqr-183 {
+    transition-delay: 2090ms;
+}
+
+#component.row .sqr-154 {
+    transition-delay: 2090ms;
+}
+
+#component.row .sqr-125 {
+    transition-delay: 2090ms;
+}
+
+#component.row .sqr-96 {
+    transition-delay: 2090ms;
+}
+
+#component.row .sqr-67 {
+    transition-delay: 2090ms;
+}
+
+#component.row .sqr-38 {
+    transition-delay: 2090ms;
+}
+
+#component.row .sqr-9 {
+    transition-delay: 2090ms;
+}
+
+#component.row .sqr-184 {
+    transition-delay: 2100ms;
+}
+
+#component.row .sqr-155 {
+    transition-delay: 2100ms;
+}
+
+#component.row .sqr-126 {
+    transition-delay: 2100ms;
+}
+
+#component.row .sqr-97 {
+    transition-delay: 2100ms;
+}
+
+#component.row .sqr-68 {
+    transition-delay: 2100ms;
+}
+
+#component.row .sqr-39 {
+    transition-delay: 2100ms;
+}
+
+#component.row .sqr-10 {
+    transition-delay: 2100ms;
+}
+
+#component.row .sqr-185 {
+    transition-delay: 2110ms;
+}
+
+#component.row .sqr-156 {
+    transition-delay: 2110ms;
+}
+
+#component.row .sqr-127 {
+    transition-delay: 2110ms;
+}
+
+#component.row .sqr-98 {
+    transition-delay: 2110ms;
+}
+
+#component.row .sqr-69 {
+    transition-delay: 2110ms;
+}
+
+#component.row .sqr-40 {
+    transition-delay: 2110ms;
+}
+
+#component.row .sqr-11 {
+    transition-delay: 2110ms;
+}
+
+#component.row .sqr-186 {
+    transition-delay: 2120ms;
+}
+
+#component.row .sqr-157 {
+    transition-delay: 2120ms;
+}
+
+#component.row .sqr-128 {
+    transition-delay: 2120ms;
+}
+
+#component.row .sqr-99 {
+    transition-delay: 2120ms;
+}
+
+#component.row .sqr-70 {
+    transition-delay: 2120ms;
+}
+
+#component.row .sqr-41 {
+    transition-delay: 2120ms;
+}
+
+#component.row .sqr-12 {
+    transition-delay: 2120ms;
+}
+
+#component.row .sqr-187 {
+    transition-delay: 2130ms;
+}
+
+#component.row .sqr-158 {
+    transition-delay: 2130ms;
+}
+
+#component.row .sqr-129 {
+    transition-delay: 2130ms;
+}
+
+#component.row .sqr-100 {
+    transition-delay: 2130ms;
+}
+
+#component.row .sqr-71 {
+    transition-delay: 2130ms;
+}
+
+#component.row .sqr-42 {
+    transition-delay: 2130ms;
+}
+
+#component.row .sqr-13 {
+    transition-delay: 2130ms;
+}
+
+#component.row .sqr-188 {
+    transition-delay: 2140ms;
+}
+
+#component.row .sqr-159 {
+    transition-delay: 2140ms;
+}
+
+#component.row .sqr-130 {
+    transition-delay: 2140ms;
+}
+
+#component.row .sqr-101 {
+    transition-delay: 2140ms;
+}
+
+#component.row .sqr-72 {
+    transition-delay: 2140ms;
+}
+
+#component.row .sqr-43 {
+    transition-delay: 2140ms;
+}
+
+#component.row .sqr-14 {
+    transition-delay: 2140ms;
+}
+
+#component.row .sqr-189 {
+    transition-delay: 2150ms;
+}
+
+#component.row .sqr-160 {
+    transition-delay: 2150ms;
+}
+
+#component.row .sqr-131 {
+    transition-delay: 2150ms;
+}
+
+#component.row .sqr-102 {
+    transition-delay: 2150ms;
+}
+
+#component.row .sqr-73 {
+    transition-delay: 2150ms;
+}
+
+#component.row .sqr-44 {
+    transition-delay: 2150ms;
+}
+
+#component.row .sqr-15 {
+    transition-delay: 2150ms;
+}
+
+#component.row .sqr-190 {
+    transition-delay: 2160ms;
+}
+
+#component.row .sqr-161 {
+    transition-delay: 2160ms;
+}
+
+#component.row .sqr-132 {
+    transition-delay: 2160ms;
+}
+
+#component.row .sqr-103 {
+    transition-delay: 2160ms;
+}
+
+#component.row .sqr-74 {
+    transition-delay: 2160ms;
+}
+
+#component.row .sqr-45 {
+    transition-delay: 2160ms;
+}
+
+#component.row .sqr-16 {
+    transition-delay: 2160ms;
+}
+
+#component.row .sqr-191 {
+    transition-delay: 2170ms;
+}
+
+#component.row .sqr-162 {
+    transition-delay: 2170ms;
+}
+
+#component.row .sqr-133 {
+    transition-delay: 2170ms;
+}
+
+#component.row .sqr-104 {
+    transition-delay: 2170ms;
+}
+
+#component.row .sqr-75 {
+    transition-delay: 2170ms;
+}
+
+#component.row .sqr-46 {
+    transition-delay: 2170ms;
+}
+
+#component.row .sqr-17 {
+    transition-delay: 2170ms;
+}
+
+#component.row .sqr-192 {
+    transition-delay: 2180ms;
+}
+
+#component.row .sqr-163 {
+    transition-delay: 2180ms;
+}
+
+#component.row .sqr-134 {
+    transition-delay: 2180ms;
+}
+
+#component.row .sqr-105 {
+    transition-delay: 2180ms;
+}
+
+#component.row .sqr-76 {
+    transition-delay: 2180ms;
+}
+
+#component.row .sqr-47 {
+    transition-delay: 2180ms;
+}
+
+#component.row .sqr-18 {
+    transition-delay: 2180ms;
+}
+
+#component.row .sqr-193 {
+    transition-delay: 2190ms;
+}
+
+#component.row .sqr-164 {
+    transition-delay: 2190ms;
+}
+
+#component.row .sqr-135 {
+    transition-delay: 2190ms;
+}
+
+#component.row .sqr-106 {
+    transition-delay: 2190ms;
+}
+
+#component.row .sqr-77 {
+    transition-delay: 2190ms;
+}
+
+#component.row .sqr-48 {
+    transition-delay: 2190ms;
+}
+
+#component.row .sqr-19 {
+    transition-delay: 2190ms;
+}
+
+#component.row .sqr-194 {
+    transition-delay: 2200ms;
+}
+
+#component.row .sqr-165 {
+    transition-delay: 2200ms;
+}
+
+#component.row .sqr-136 {
+    transition-delay: 2200ms;
+}
+
+#component.row .sqr-107 {
+    transition-delay: 2200ms;
+}
+
+#component.row .sqr-78 {
+    transition-delay: 2200ms;
+}
+
+#component.row .sqr-49 {
+    transition-delay: 2200ms;
+}
+
+#component.row .sqr-20 {
+    transition-delay: 2200ms;
+}
+
+#component.row .sqr-195 {
+    transition-delay: 2210ms;
+}
+
+#component.row .sqr-166 {
+    transition-delay: 2210ms;
+}
+
+#component.row .sqr-137 {
+    transition-delay: 2210ms;
+}
+
+#component.row .sqr-108 {
+    transition-delay: 2210ms;
+}
+
+#component.row .sqr-79 {
+    transition-delay: 2210ms;
+}
+
+#component.row .sqr-50 {
+    transition-delay: 2210ms;
+}
+
+#component.row .sqr-21 {
+    transition-delay: 2210ms;
+}
+
+#component.row .sqr-196 {
+    transition-delay: 2220ms;
+}
+
+#component.row .sqr-167 {
+    transition-delay: 2220ms;
+}
+
+#component.row .sqr-138 {
+    transition-delay: 2220ms;
+}
+
+#component.row .sqr-109 {
+    transition-delay: 2220ms;
+}
+
+#component.row .sqr-80 {
+    transition-delay: 2220ms;
+}
+
+#component.row .sqr-51 {
+    transition-delay: 2220ms;
+}
+
+#component.row .sqr-22 {
+    transition-delay: 2220ms;
+}
+
+#component.row .sqr-197 {
+    transition-delay: 2230ms;
+}
+
+#component.row .sqr-168 {
+    transition-delay: 2230ms;
+}
+
+#component.row .sqr-139 {
+    transition-delay: 2230ms;
+}
+
+#component.row .sqr-110 {
+    transition-delay: 2230ms;
+}
+
+#component.row .sqr-81 {
+    transition-delay: 2230ms;
+}
+
+#component.row .sqr-52 {
+    transition-delay: 2230ms;
+}
+
+#component.row .sqr-23 {
+    transition-delay: 2230ms;
+}
+
+#component.row .sqr-198 {
+    transition-delay: 2240ms;
+}
+
+#component.row .sqr-169 {
+    transition-delay: 2240ms;
+}
+
+#component.row .sqr-140 {
+    transition-delay: 2240ms;
+}
+
+#component.row .sqr-111 {
+    transition-delay: 2240ms;
+}
+
+#component.row .sqr-82 {
+    transition-delay: 2240ms;
+}
+
+#component.row .sqr-53 {
+    transition-delay: 2240ms;
+}
+
+#component.row .sqr-24 {
+    transition-delay: 2240ms;
+}
+
+#component.row .sqr-199 {
+    transition-delay: 2250ms;
+}
+
+#component.row .sqr-170 {
+    transition-delay: 2250ms;
+}
+
+#component.row .sqr-141 {
+    transition-delay: 2250ms;
+}
+
+#component.row .sqr-112 {
+    transition-delay: 2250ms;
+}
+
+#component.row .sqr-83 {
+    transition-delay: 2250ms;
+}
+
+#component.row .sqr-54 {
+    transition-delay: 2250ms;
+}
+
+#component.row .sqr-25 {
+    transition-delay: 2250ms;
+}
+
+#component.row .sqr-200 {
+    transition-delay: 2260ms;
+}
+
+#component.row .sqr-171 {
+    transition-delay: 2260ms;
+}
+
+#component.row .sqr-142 {
+    transition-delay: 2260ms;
+}
+
+#component.row .sqr-113 {
+    transition-delay: 2260ms;
+}
+
+#component.row .sqr-84 {
+    transition-delay: 2260ms;
+}
+
+#component.row .sqr-55 {
+    transition-delay: 2260ms;
+}
+
+#component.row .sqr-26 {
+    transition-delay: 2260ms;
+}
+
+#component.row .sqr-201 {
+    transition-delay: 2270ms;
+}
+
+#component.row .sqr-172 {
+    transition-delay: 2270ms;
+}
+
+#component.row .sqr-143 {
+    transition-delay: 2270ms;
+}
+
+#component.row .sqr-114 {
+    transition-delay: 2270ms;
+}
+
+#component.row .sqr-85 {
+    transition-delay: 2270ms;
+}
+
+#component.row .sqr-56 {
+    transition-delay: 2270ms;
+}
+
+#component.row .sqr-27 {
+    transition-delay: 2270ms;
+}
+
+#component.row .sqr-202 {
+    transition-delay: 2280ms;
+}
+
+#component.row .sqr-173 {
+    transition-delay: 2280ms;
+}
+
+#component.row .sqr-144 {
+    transition-delay: 2280ms;
+}
+
+#component.row .sqr-115 {
+    transition-delay: 2280ms;
+}
+
+#component.row .sqr-86 {
+    transition-delay: 2280ms;
+}
+
+#component.row .sqr-57 {
+    transition-delay: 2280ms;
+}
+
+#component.row .sqr-28 {
+    transition-delay: 2280ms;
+}
+
+#component.row .sqr-203 {
+    transition-delay: 2290ms;
+}
+
+#component.row .sqr-174 {
+    transition-delay: 2290ms;
+}
+
+#component.row .sqr-145 {
+    transition-delay: 2290ms;
+}
+
+#component.row .sqr-116 {
+    transition-delay: 2290ms;
+}
+
+#component.row .sqr-87 {
+    transition-delay: 2290ms;
+}
+
+#component.row .sqr-58 {
+    transition-delay: 2290ms;
+}
+
+#component.row .sqr-29 {
+    transition-delay: 2290ms;
+}
+
+#component.line .sqr-174 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-173 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-172 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-171 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-170 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-169 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-168 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-167 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-166 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-165 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-164 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-163 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-162 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-161 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-160 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-159 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-158 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-157 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-156 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-155 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-154 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-153 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-152 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-151 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-150 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-149 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-148 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-147 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-146 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-145 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-144 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-143 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-142 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-141 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-140 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-139 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-138 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-137 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-136 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-135 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-134 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-133 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-132 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-131 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-130 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-129 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-128 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-127 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-126 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-125 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-124 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-123 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-122 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-121 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-120 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-119 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-118 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-117 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-116 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-115 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-114 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-113 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-112 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-111 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-110 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-109 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-108 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-107 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-106 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-105 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-104 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-103 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-102 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-101 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-100 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-99 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-98 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-97 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-96 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-95 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-94 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-93 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-92 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-91 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-90 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-89 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-88 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-87 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-86 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-85 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-84 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-83 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-82 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-81 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-80 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-79 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-78 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-77 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-76 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-75 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-74 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-73 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-72 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-71 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-70 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-69 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-68 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-67 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-66 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-65 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-64 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-63 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-62 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-61 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-60 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-59 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-58 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-57 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-56 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-55 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-54 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-53 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-52 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-51 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-50 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-49 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-48 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-47 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-46 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-45 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-44 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-43 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-42 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-41 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-40 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-39 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-38 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-37 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-36 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-35 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-34 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-33 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-32 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-31 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-30 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-29 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-28 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-27 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-26 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-25 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-24 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-23 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-22 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-21 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-20 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-19 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-18 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-17 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-16 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-15 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-14 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-13 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-12 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-11 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-10 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-9 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-8 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-7 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-6 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-5 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-4 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-3 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-2 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-1 {
+    transition-delay: 2000ms;
+}
+
+#component.line .sqr-174 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-173 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-172 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-171 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-170 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-169 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-168 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-167 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-166 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-165 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-164 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-163 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-162 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-161 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-160 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-159 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-158 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-157 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-156 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-155 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-154 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-153 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-152 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-151 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-150 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-149 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-148 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-147 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-146 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-145 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-144 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-143 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-142 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-141 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-140 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-139 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-138 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-137 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-136 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-135 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-134 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-133 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-132 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-131 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-130 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-129 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-128 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-127 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-126 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-125 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-124 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-123 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-122 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-121 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-120 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-119 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-118 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-117 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-116 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-115 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-114 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-113 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-112 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-111 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-110 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-109 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-108 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-107 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-106 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-105 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-104 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-103 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-102 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-101 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-100 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-99 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-98 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-97 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-96 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-95 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-94 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-93 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-92 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-91 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-90 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-89 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-88 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-87 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-86 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-85 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-84 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-83 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-82 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-81 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-80 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-79 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-78 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-77 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-76 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-75 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-74 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-73 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-72 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-71 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-70 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-69 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-68 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-67 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-66 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-65 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-64 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-63 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-62 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-61 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-60 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-59 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-58 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-57 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-56 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-55 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-54 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-53 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-52 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-51 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-50 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-49 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-48 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-47 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-46 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-45 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-44 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-43 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-42 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-41 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-40 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-39 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-38 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-37 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-36 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-35 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-34 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-33 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-32 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-31 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-30 {
+    transition-delay: 2050ms;
+}
+
+#component.line .sqr-174 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-173 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-172 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-171 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-170 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-169 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-168 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-167 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-166 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-165 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-164 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-163 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-162 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-161 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-160 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-159 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-158 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-157 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-156 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-155 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-154 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-153 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-152 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-151 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-150 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-149 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-148 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-147 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-146 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-145 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-144 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-143 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-142 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-141 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-140 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-139 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-138 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-137 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-136 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-135 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-134 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-133 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-132 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-131 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-130 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-129 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-128 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-127 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-126 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-125 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-124 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-123 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-122 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-121 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-120 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-119 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-118 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-117 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-116 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-115 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-114 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-113 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-112 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-111 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-110 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-109 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-108 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-107 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-106 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-105 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-104 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-103 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-102 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-101 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-100 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-99 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-98 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-97 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-96 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-95 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-94 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-93 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-92 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-91 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-90 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-89 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-88 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-87 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-86 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-85 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-84 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-83 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-82 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-81 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-80 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-79 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-78 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-77 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-76 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-75 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-74 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-73 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-72 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-71 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-70 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-69 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-68 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-67 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-66 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-65 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-64 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-63 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-62 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-61 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-60 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-59 {
+    transition-delay: 2100ms;
+}
+
+#component.line .sqr-174 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-173 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-172 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-171 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-170 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-169 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-168 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-167 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-166 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-165 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-164 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-163 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-162 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-161 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-160 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-159 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-158 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-157 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-156 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-155 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-154 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-153 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-152 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-151 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-150 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-149 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-148 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-147 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-146 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-145 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-144 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-143 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-142 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-141 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-140 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-139 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-138 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-137 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-136 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-135 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-134 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-133 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-132 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-131 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-130 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-129 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-128 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-127 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-126 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-125 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-124 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-123 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-122 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-121 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-120 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-119 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-118 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-117 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-116 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-115 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-114 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-113 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-112 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-111 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-110 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-109 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-108 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-107 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-106 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-105 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-104 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-103 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-102 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-101 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-100 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-99 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-98 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-97 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-96 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-95 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-94 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-93 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-92 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-91 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-90 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-89 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-88 {
+    transition-delay: 2150ms;
+}
+
+#component.line .sqr-174 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-173 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-172 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-171 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-170 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-169 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-168 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-167 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-166 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-165 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-164 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-163 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-162 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-161 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-160 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-159 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-158 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-157 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-156 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-155 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-154 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-153 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-152 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-151 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-150 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-149 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-148 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-147 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-146 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-145 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-144 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-143 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-142 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-141 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-140 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-139 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-138 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-137 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-136 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-135 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-134 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-133 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-132 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-131 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-130 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-129 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-128 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-127 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-126 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-125 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-124 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-123 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-122 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-121 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-120 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-119 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-118 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-117 {
+    transition-delay: 2200ms;
+}
+
+#component.line .sqr-174 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-173 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-172 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-171 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-170 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-169 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-168 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-167 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-166 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-165 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-164 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-163 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-162 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-161 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-160 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-159 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-158 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-157 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-156 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-155 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-154 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-153 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-152 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-151 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-150 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-149 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-148 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-147 {
+    transition-delay: 2250ms;
+}
+
+#component.line .sqr-146 {
+    transition-delay: 2250ms;
+}
+
+#component.diagonal .sqr-174 {
+    transition-delay: 2000ms;
+}
+
+#component.diagonal .sqr-150 {
+    transition-delay: 2000ms;
+}
+
+#component.diagonal .sqr-126 {
+    transition-delay: 2000ms;
+}
+
+#component.diagonal .sqr-102 {
+    transition-delay: 2000ms;
+}
+
+#component.diagonal .sqr-78 {
+    transition-delay: 2000ms;
+}
+
+#component.diagonal .sqr-54 {
+    transition-delay: 2000ms;
+}
+
+#component.diagonal .sqr-30 {
+    transition-delay: 2000ms;
+}
+
+#component.diagonal .sqr-6 {
+    transition-delay: 2000ms;
+}
+
+#component.diagonal .sqr-175 {
+    transition-delay: 2010ms;
+}
+
+#component.diagonal .sqr-151 {
+    transition-delay: 2010ms;
+}
+
+#component.diagonal .sqr-127 {
+    transition-delay: 2010ms;
+}
+
+#component.diagonal .sqr-103 {
+    transition-delay: 2010ms;
+}
+
+#component.diagonal .sqr-79 {
+    transition-delay: 2010ms;
+}
+
+#component.diagonal .sqr-55 {
+    transition-delay: 2010ms;
+}
+
+#component.diagonal .sqr-31 {
+    transition-delay: 2010ms;
+}
+
+#component.diagonal .sqr-7 {
+    transition-delay: 2010ms;
+}
+
+#component.diagonal .sqr-176 {
+    transition-delay: 2020ms;
+}
+
+#component.diagonal .sqr-152 {
+    transition-delay: 2020ms;
+}
+
+#component.diagonal .sqr-128 {
+    transition-delay: 2020ms;
+}
+
+#component.diagonal .sqr-104 {
+    transition-delay: 2020ms;
+}
+
+#component.diagonal .sqr-80 {
+    transition-delay: 2020ms;
+}
+
+#component.diagonal .sqr-56 {
+    transition-delay: 2020ms;
+}
+
+#component.diagonal .sqr-32 {
+    transition-delay: 2020ms;
+}
+
+#component.diagonal .sqr-8 {
+    transition-delay: 2020ms;
+}
+
+#component.diagonal .sqr-177 {
+    transition-delay: 2030ms;
+}
+
+#component.diagonal .sqr-153 {
+    transition-delay: 2030ms;
+}
+
+#component.diagonal .sqr-129 {
+    transition-delay: 2030ms;
+}
+
+#component.diagonal .sqr-105 {
+    transition-delay: 2030ms;
+}
+
+#component.diagonal .sqr-81 {
+    transition-delay: 2030ms;
+}
+
+#component.diagonal .sqr-57 {
+    transition-delay: 2030ms;
+}
+
+#component.diagonal .sqr-33 {
+    transition-delay: 2030ms;
+}
+
+#component.diagonal .sqr-9 {
+    transition-delay: 2030ms;
+}
+
+#component.diagonal .sqr-178 {
+    transition-delay: 2040ms;
+}
+
+#component.diagonal .sqr-154 {
+    transition-delay: 2040ms;
+}
+
+#component.diagonal .sqr-130 {
+    transition-delay: 2040ms;
+}
+
+#component.diagonal .sqr-106 {
+    transition-delay: 2040ms;
+}
+
+#component.diagonal .sqr-82 {
+    transition-delay: 2040ms;
+}
+
+#component.diagonal .sqr-58 {
+    transition-delay: 2040ms;
+}
+
+#component.diagonal .sqr-34 {
+    transition-delay: 2040ms;
+}
+
+#component.diagonal .sqr-10 {
+    transition-delay: 2040ms;
+}
+
+#component.diagonal .sqr-179 {
+    transition-delay: 2050ms;
+}
+
+#component.diagonal .sqr-155 {
+    transition-delay: 2050ms;
+}
+
+#component.diagonal .sqr-131 {
+    transition-delay: 2050ms;
+}
+
+#component.diagonal .sqr-107 {
+    transition-delay: 2050ms;
+}
+
+#component.diagonal .sqr-83 {
+    transition-delay: 2050ms;
+}
+
+#component.diagonal .sqr-59 {
+    transition-delay: 2050ms;
+}
+
+#component.diagonal .sqr-35 {
+    transition-delay: 2050ms;
+}
+
+#component.diagonal .sqr-11 {
+    transition-delay: 2050ms;
+}
+
+#component.diagonal .sqr-180 {
+    transition-delay: 2060ms;
+}
+
+#component.diagonal .sqr-156 {
+    transition-delay: 2060ms;
+}
+
+#component.diagonal .sqr-132 {
+    transition-delay: 2060ms;
+}
+
+#component.diagonal .sqr-108 {
+    transition-delay: 2060ms;
+}
+
+#component.diagonal .sqr-84 {
+    transition-delay: 2060ms;
+}
+
+#component.diagonal .sqr-60 {
+    transition-delay: 2060ms;
+}
+
+#component.diagonal .sqr-36 {
+    transition-delay: 2060ms;
+}
+
+#component.diagonal .sqr-12 {
+    transition-delay: 2060ms;
+}
+
+#component.diagonal .sqr-181 {
+    transition-delay: 2070ms;
+}
+
+#component.diagonal .sqr-157 {
+    transition-delay: 2070ms;
+}
+
+#component.diagonal .sqr-133 {
+    transition-delay: 2070ms;
+}
+
+#component.diagonal .sqr-109 {
+    transition-delay: 2070ms;
+}
+
+#component.diagonal .sqr-85 {
+    transition-delay: 2070ms;
+}
+
+#component.diagonal .sqr-61 {
+    transition-delay: 2070ms;
+}
+
+#component.diagonal .sqr-37 {
+    transition-delay: 2070ms;
+}
+
+#component.diagonal .sqr-13 {
+    transition-delay: 2070ms;
+}
+
+#component.diagonal .sqr-182 {
+    transition-delay: 2080ms;
+}
+
+#component.diagonal .sqr-158 {
+    transition-delay: 2080ms;
+}
+
+#component.diagonal .sqr-134 {
+    transition-delay: 2080ms;
+}
+
+#component.diagonal .sqr-110 {
+    transition-delay: 2080ms;
+}
+
+#component.diagonal .sqr-86 {
+    transition-delay: 2080ms;
+}
+
+#component.diagonal .sqr-62 {
+    transition-delay: 2080ms;
+}
+
+#component.diagonal .sqr-38 {
+    transition-delay: 2080ms;
+}
+
+#component.diagonal .sqr-14 {
+    transition-delay: 2080ms;
+}
+
+#component.diagonal .sqr-183 {
+    transition-delay: 2090ms;
+}
+
+#component.diagonal .sqr-159 {
+    transition-delay: 2090ms;
+}
+
+#component.diagonal .sqr-135 {
+    transition-delay: 2090ms;
+}
+
+#component.diagonal .sqr-111 {
+    transition-delay: 2090ms;
+}
+
+#component.diagonal .sqr-87 {
+    transition-delay: 2090ms;
+}
+
+#component.diagonal .sqr-63 {
+    transition-delay: 2090ms;
+}
+
+#component.diagonal .sqr-39 {
+    transition-delay: 2090ms;
+}
+
+#component.diagonal .sqr-15 {
+    transition-delay: 2090ms;
+}
+
+#component.diagonal .sqr-184 {
+    transition-delay: 2100ms;
+}
+
+#component.diagonal .sqr-160 {
+    transition-delay: 2100ms;
+}
+
+#component.diagonal .sqr-136 {
+    transition-delay: 2100ms;
+}
+
+#component.diagonal .sqr-112 {
+    transition-delay: 2100ms;
+}
+
+#component.diagonal .sqr-88 {
+    transition-delay: 2100ms;
+}
+
+#component.diagonal .sqr-64 {
+    transition-delay: 2100ms;
+}
+
+#component.diagonal .sqr-40 {
+    transition-delay: 2100ms;
+}
+
+#component.diagonal .sqr-16 {
+    transition-delay: 2100ms;
+}
+
+#component.diagonal .sqr-185 {
+    transition-delay: 2110ms;
+}
+
+#component.diagonal .sqr-161 {
+    transition-delay: 2110ms;
+}
+
+#component.diagonal .sqr-137 {
+    transition-delay: 2110ms;
+}
+
+#component.diagonal .sqr-113 {
+    transition-delay: 2110ms;
+}
+
+#component.diagonal .sqr-89 {
+    transition-delay: 2110ms;
+}
+
+#component.diagonal .sqr-65 {
+    transition-delay: 2110ms;
+}
+
+#component.diagonal .sqr-41 {
+    transition-delay: 2110ms;
+}
+
+#component.diagonal .sqr-17 {
+    transition-delay: 2110ms;
+}
+
+#component.diagonal .sqr-186 {
+    transition-delay: 2120ms;
+}
+
+#component.diagonal .sqr-162 {
+    transition-delay: 2120ms;
+}
+
+#component.diagonal .sqr-138 {
+    transition-delay: 2120ms;
+}
+
+#component.diagonal .sqr-114 {
+    transition-delay: 2120ms;
+}
+
+#component.diagonal .sqr-90 {
+    transition-delay: 2120ms;
+}
+
+#component.diagonal .sqr-66 {
+    transition-delay: 2120ms;
+}
+
+#component.diagonal .sqr-42 {
+    transition-delay: 2120ms;
+}
+
+#component.diagonal .sqr-18 {
+    transition-delay: 2120ms;
+}
+
+#component.diagonal .sqr-187 {
+    transition-delay: 2130ms;
+}
+
+#component.diagonal .sqr-163 {
+    transition-delay: 2130ms;
+}
+
+#component.diagonal .sqr-139 {
+    transition-delay: 2130ms;
+}
+
+#component.diagonal .sqr-115 {
+    transition-delay: 2130ms;
+}
+
+#component.diagonal .sqr-91 {
+    transition-delay: 2130ms;
+}
+
+#component.diagonal .sqr-67 {
+    transition-delay: 2130ms;
+}
+
+#component.diagonal .sqr-43 {
+    transition-delay: 2130ms;
+}
+
+#component.diagonal .sqr-19 {
+    transition-delay: 2130ms;
+}
+
+#component.diagonal .sqr-188 {
+    transition-delay: 2140ms;
+}
+
+#component.diagonal .sqr-164 {
+    transition-delay: 2140ms;
+}
+
+#component.diagonal .sqr-140 {
+    transition-delay: 2140ms;
+}
+
+#component.diagonal .sqr-116 {
+    transition-delay: 2140ms;
+}
+
+#component.diagonal .sqr-92 {
+    transition-delay: 2140ms;
+}
+
+#component.diagonal .sqr-68 {
+    transition-delay: 2140ms;
+}
+
+#component.diagonal .sqr-44 {
+    transition-delay: 2140ms;
+}
+
+#component.diagonal .sqr-20 {
+    transition-delay: 2140ms;
+}
+
+#component.diagonal .sqr-189 {
+    transition-delay: 2150ms;
+}
+
+#component.diagonal .sqr-165 {
+    transition-delay: 2150ms;
+}
+
+#component.diagonal .sqr-141 {
+    transition-delay: 2150ms;
+}
+
+#component.diagonal .sqr-117 {
+    transition-delay: 2150ms;
+}
+
+#component.diagonal .sqr-93 {
+    transition-delay: 2150ms;
+}
+
+#component.diagonal .sqr-69 {
+    transition-delay: 2150ms;
+}
+
+#component.diagonal .sqr-45 {
+    transition-delay: 2150ms;
+}
+
+#component.diagonal .sqr-21 {
+    transition-delay: 2150ms;
+}
+
+#component.diagonal .sqr-190 {
+    transition-delay: 2160ms;
+}
+
+#component.diagonal .sqr-166 {
+    transition-delay: 2160ms;
+}
+
+#component.diagonal .sqr-142 {
+    transition-delay: 2160ms;
+}
+
+#component.diagonal .sqr-118 {
+    transition-delay: 2160ms;
+}
+
+#component.diagonal .sqr-94 {
+    transition-delay: 2160ms;
+}
+
+#component.diagonal .sqr-70 {
+    transition-delay: 2160ms;
+}
+
+#component.diagonal .sqr-46 {
+    transition-delay: 2160ms;
+}
+
+#component.diagonal .sqr-22 {
+    transition-delay: 2160ms;
+}
+
+#component.diagonal .sqr-191 {
+    transition-delay: 2170ms;
+}
+
+#component.diagonal .sqr-167 {
+    transition-delay: 2170ms;
+}
+
+#component.diagonal .sqr-143 {
+    transition-delay: 2170ms;
+}
+
+#component.diagonal .sqr-119 {
+    transition-delay: 2170ms;
+}
+
+#component.diagonal .sqr-95 {
+    transition-delay: 2170ms;
+}
+
+#component.diagonal .sqr-71 {
+    transition-delay: 2170ms;
+}
+
+#component.diagonal .sqr-47 {
+    transition-delay: 2170ms;
+}
+
+#component.diagonal .sqr-23 {
+    transition-delay: 2170ms;
+}
+
+#component.diagonal .sqr-192 {
+    transition-delay: 2180ms;
+}
+
+#component.diagonal .sqr-168 {
+    transition-delay: 2180ms;
+}
+
+#component.diagonal .sqr-144 {
+    transition-delay: 2180ms;
+}
+
+#component.diagonal .sqr-120 {
+    transition-delay: 2180ms;
+}
+
+#component.diagonal .sqr-96 {
+    transition-delay: 2180ms;
+}
+
+#component.diagonal .sqr-72 {
+    transition-delay: 2180ms;
+}
+
+#component.diagonal .sqr-48 {
+    transition-delay: 2180ms;
+}
+
+#component.diagonal .sqr-24 {
+    transition-delay: 2180ms;
+}
+
+#component.diagonal .sqr-193 {
+    transition-delay: 2190ms;
+}
+
+#component.diagonal .sqr-169 {
+    transition-delay: 2190ms;
+}
+
+#component.diagonal .sqr-145 {
+    transition-delay: 2190ms;
+}
+
+#component.diagonal .sqr-121 {
+    transition-delay: 2190ms;
+}
+
+#component.diagonal .sqr-97 {
+    transition-delay: 2190ms;
+}
+
+#component.diagonal .sqr-73 {
+    transition-delay: 2190ms;
+}
+
+#component.diagonal .sqr-49 {
+    transition-delay: 2190ms;
+}
+
+#component.diagonal .sqr-25 {
+    transition-delay: 2190ms;
+}
+
+#component.diagonal .sqr-1 {
+    transition-delay: 2190ms;
+}
+
+#component.diagonal .sqr-194 {
+    transition-delay: 2200ms;
+}
+
+#component.diagonal .sqr-170 {
+    transition-delay: 2200ms;
+}
+
+#component.diagonal .sqr-146 {
+    transition-delay: 2200ms;
+}
+
+#component.diagonal .sqr-122 {
+    transition-delay: 2200ms;
+}
+
+#component.diagonal .sqr-98 {
+    transition-delay: 2200ms;
+}
+
+#component.diagonal .sqr-74 {
+    transition-delay: 2200ms;
+}
+
+#component.diagonal .sqr-50 {
+    transition-delay: 2200ms;
+}
+
+#component.diagonal .sqr-26 {
+    transition-delay: 2200ms;
+}
+
+#component.diagonal .sqr-2 {
+    transition-delay: 2200ms;
+}
+
+#component.diagonal .sqr-195 {
+    transition-delay: 2210ms;
+}
+
+#component.diagonal .sqr-171 {
+    transition-delay: 2210ms;
+}
+
+#component.diagonal .sqr-147 {
+    transition-delay: 2210ms;
+}
+
+#component.diagonal .sqr-123 {
+    transition-delay: 2210ms;
+}
+
+#component.diagonal .sqr-99 {
+    transition-delay: 2210ms;
+}
+
+#component.diagonal .sqr-75 {
+    transition-delay: 2210ms;
+}
+
+#component.diagonal .sqr-51 {
+    transition-delay: 2210ms;
+}
+
+#component.diagonal .sqr-27 {
+    transition-delay: 2210ms;
+}
+
+#component.diagonal .sqr-3 {
+    transition-delay: 2210ms;
+}
+
+#component.diagonal .sqr-196 {
+    transition-delay: 2220ms;
+}
+
+#component.diagonal .sqr-172 {
+    transition-delay: 2220ms;
+}
+
+#component.diagonal .sqr-148 {
+    transition-delay: 2220ms;
+}
+
+#component.diagonal .sqr-124 {
+    transition-delay: 2220ms;
+}
+
+#component.diagonal .sqr-100 {
+    transition-delay: 2220ms;
+}
+
+#component.diagonal .sqr-76 {
+    transition-delay: 2220ms;
+}
+
+#component.diagonal .sqr-52 {
+    transition-delay: 2220ms;
+}
+
+#component.diagonal .sqr-28 {
+    transition-delay: 2220ms;
+}
+
+#component.diagonal .sqr-4 {
+    transition-delay: 2220ms;
+}
+
+#component.diagonal .sqr-197 {
+    transition-delay: 2230ms;
+}
+
+#component.diagonal .sqr-173 {
+    transition-delay: 2230ms;
+}
+
+#component.diagonal .sqr-149 {
+    transition-delay: 2230ms;
+}
+
+#component.diagonal .sqr-125 {
+    transition-delay: 2230ms;
+}
+
+#component.diagonal .sqr-101 {
+    transition-delay: 2230ms;
+}
+
+#component.diagonal .sqr-77 {
+    transition-delay: 2230ms;
+}
+
+#component.diagonal .sqr-53 {
+    transition-delay: 2230ms;
+}
+
+#component.diagonal .sqr-29 {
+    transition-delay: 2230ms;
+}
+
+#component.diagonal .sqr-5 {
+    transition-delay: 2230ms;
+}
+
+#component.diagonal .sqr-198 {
+    transition-delay: 2240ms;
+}
+
+#component.diagonal .sqr-174 {
+    transition-delay: 2240ms;
+}
+
+#component.diagonal .sqr-150 {
+    transition-delay: 2240ms;
+}
+
+#component.diagonal .sqr-126 {
+    transition-delay: 2240ms;
+}
+
+#component.diagonal .sqr-102 {
+    transition-delay: 2240ms;
+}
+
+#component.diagonal .sqr-78 {
+    transition-delay: 2240ms;
+}
+
+#component.diagonal .sqr-54 {
+    transition-delay: 2240ms;
+}
+
+#component.diagonal .sqr-30 {
+    transition-delay: 2240ms;
+}
+
+#component.diagonal .sqr-6 {
+    transition-delay: 2240ms;
+}
+
+#component.diagonal .sqr-199 {
+    transition-delay: 2250ms;
+}
+
+#component.diagonal .sqr-175 {
+    transition-delay: 2250ms;
+}
+
+#component.diagonal .sqr-151 {
+    transition-delay: 2250ms;
+}
+
+#component.diagonal .sqr-127 {
+    transition-delay: 2250ms;
+}
+
+#component.diagonal .sqr-103 {
+    transition-delay: 2250ms;
+}
+
+#component.diagonal .sqr-79 {
+    transition-delay: 2250ms;
+}
+
+#component.diagonal .sqr-55 {
+    transition-delay: 2250ms;
+}
+
+#component.diagonal .sqr-31 {
+    transition-delay: 2250ms;
+}
+
+#component.diagonal .sqr-7 {
+    transition-delay: 2250ms;
+}
+
+#component.diagonal .sqr-200 {
+    transition-delay: 2260ms;
+}
+
+#component.diagonal .sqr-176 {
+    transition-delay: 2260ms;
+}
+
+#component.diagonal .sqr-152 {
+    transition-delay: 2260ms;
+}
+
+#component.diagonal .sqr-128 {
+    transition-delay: 2260ms;
+}
+
+#component.diagonal .sqr-104 {
+    transition-delay: 2260ms;
+}
+
+#component.diagonal .sqr-80 {
+    transition-delay: 2260ms;
+}
+
+#component.diagonal .sqr-56 {
+    transition-delay: 2260ms;
+}
+
+#component.diagonal .sqr-32 {
+    transition-delay: 2260ms;
+}
+
+#component.diagonal .sqr-8 {
+    transition-delay: 2260ms;
+}
+
+#component.diagonal .sqr-201 {
+    transition-delay: 2270ms;
+}
+
+#component.diagonal .sqr-177 {
+    transition-delay: 2270ms;
+}
+
+#component.diagonal .sqr-153 {
+    transition-delay: 2270ms;
+}
+
+#component.diagonal .sqr-129 {
+    transition-delay: 2270ms;
+}
+
+#component.diagonal .sqr-105 {
+    transition-delay: 2270ms;
+}
+
+#component.diagonal .sqr-81 {
+    transition-delay: 2270ms;
+}
+
+#component.diagonal .sqr-57 {
+    transition-delay: 2270ms;
+}
+
+#component.diagonal .sqr-33 {
+    transition-delay: 2270ms;
+}
+
+#component.diagonal .sqr-9 {
+    transition-delay: 2270ms;
+}
+
+#component.diagonal .sqr-202 {
+    transition-delay: 2280ms;
+}
+
+#component.diagonal .sqr-178 {
+    transition-delay: 2280ms;
+}
+
+#component.diagonal .sqr-154 {
+    transition-delay: 2280ms;
+}
+
+#component.diagonal .sqr-130 {
+    transition-delay: 2280ms;
+}
+
+#component.diagonal .sqr-106 {
+    transition-delay: 2280ms;
+}
+
+#component.diagonal .sqr-82 {
+    transition-delay: 2280ms;
+}
+
+#component.diagonal .sqr-58 {
+    transition-delay: 2280ms;
+}
+
+#component.diagonal .sqr-34 {
+    transition-delay: 2280ms;
+}
+
+#component.diagonal .sqr-10 {
+    transition-delay: 2280ms;
+}
+
+#component.diagonal .sqr-203 {
+    transition-delay: 2290ms;
+}
+
+#component.diagonal .sqr-179 {
+    transition-delay: 2290ms;
+}
+
+#component.diagonal .sqr-155 {
+    transition-delay: 2290ms;
+}
+
+#component.diagonal .sqr-131 {
+    transition-delay: 2290ms;
+}
+
+#component.diagonal .sqr-107 {
+    transition-delay: 2290ms;
+}
+
+#component.diagonal .sqr-83 {
+    transition-delay: 2290ms;
+}
+
+#component.diagonal .sqr-59 {
+    transition-delay: 2290ms;
+}
+
+#component.diagonal .sqr-35 {
+    transition-delay: 2290ms;
+}
+
+#component.diagonal .sqr-11 {
+    transition-delay: 2290ms;
+}
+
+#component.radial .sqr--13 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr--13 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr--14 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr--15 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr--16 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr--17 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr--18 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr--19 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr--20 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr--21 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr--22 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr--23 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr--24 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr--25 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr--26 {
+    transition-delay: 2325ms;
+}
+
+#component.radial .sqr--27 {
+    transition-delay: 2350ms;
+}
+
+#component.radial .sqr--28 {
+    transition-delay: 2375ms;
+}
+
+#component.radial .sqr-15 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-15 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-14 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr-13 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr-12 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr-11 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr-10 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr-9 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr-8 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr-7 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr-6 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr-5 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr-4 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr-3 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr-2 {
+    transition-delay: 2325ms;
+}
+
+#component.radial .sqr-1 {
+    transition-delay: 2350ms;
+}
+
+#component.radial .sqr-43 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-43 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-42 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr-41 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr-40 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr-39 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr-38 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr-37 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr-36 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr-35 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr-34 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr-33 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr-32 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr-31 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr-30 {
+    transition-delay: 2325ms;
+}
+
+#component.radial .sqr-71 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-71 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-70 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr-69 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr-68 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr-67 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr-66 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr-65 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr-64 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr-63 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr-62 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr-61 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr-60 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr-59 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr-100 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-100 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-99 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr-98 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr-97 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr-96 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr-95 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr-94 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr-93 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr-92 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr-91 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr-90 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr-89 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr-88 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr-130 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-130 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-129 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr-128 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr-127 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr-126 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr-125 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr-124 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr-123 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr-122 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr-121 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr-120 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr-119 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr-118 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr-117 {
+    transition-delay: 2325ms;
+}
+
+#component.radial .sqr-160 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-160 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-159 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr-158 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr-157 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr-156 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr-155 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr-154 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr-153 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr-152 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr-151 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr-150 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr-149 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr-148 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr-147 {
+    transition-delay: 2325ms;
+}
+
+#component.radial .sqr-146 {
+    transition-delay: 2350ms;
+}
+
+#component.radial .sqr--15 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr--15 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr--14 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr--13 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr--12 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr--11 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr--10 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr--9 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr--8 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr--7 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr--6 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr--5 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr--4 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr--3 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr--2 {
+    transition-delay: 2325ms;
+}
+
+#component.radial .sqr--1 {
+    transition-delay: 2350ms;
+}
+
+#component.radial .sqr-0 {
+    transition-delay: 2375ms;
+}
+
+#component.radial .sqr-15 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-15 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-16 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr-17 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr-18 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr-19 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr-20 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr-21 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr-22 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr-23 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr-24 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr-25 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr-26 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr-27 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr-28 {
+    transition-delay: 2325ms;
+}
+
+#component.radial .sqr-29 {
+    transition-delay: 2350ms;
+}
+
+#component.radial .sqr-45 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-45 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-46 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr-47 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr-48 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr-49 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr-50 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr-51 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr-52 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr-53 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr-54 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr-55 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr-56 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr-57 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr-58 {
+    transition-delay: 2325ms;
+}
+
+#component.radial .sqr-75 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-75 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-76 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr-77 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr-78 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr-79 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr-80 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr-81 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr-82 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr-83 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr-84 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr-85 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr-86 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr-87 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr-104 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-104 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-105 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr-106 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr-107 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr-108 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr-109 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr-110 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr-111 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr-112 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr-113 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr-114 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr-115 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr-116 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr-132 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-132 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-133 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr-134 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr-135 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr-136 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr-137 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr-138 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr-139 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr-140 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr-141 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr-142 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr-143 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr-144 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr-145 {
+    transition-delay: 2325ms;
+}
+
+#component.radial .sqr-160 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-160 {
+    transition-delay: 2000ms;
+}
+
+#component.radial .sqr-161 {
+    transition-delay: 2025ms;
+}
+
+#component.radial .sqr-162 {
+    transition-delay: 2050ms;
+}
+
+#component.radial .sqr-163 {
+    transition-delay: 2075ms;
+}
+
+#component.radial .sqr-164 {
+    transition-delay: 2100ms;
+}
+
+#component.radial .sqr-165 {
+    transition-delay: 2125ms;
+}
+
+#component.radial .sqr-166 {
+    transition-delay: 2150ms;
+}
+
+#component.radial .sqr-167 {
+    transition-delay: 2175ms;
+}
+
+#component.radial .sqr-168 {
+    transition-delay: 2200ms;
+}
+
+#component.radial .sqr-169 {
+    transition-delay: 2225ms;
+}
+
+#component.radial .sqr-170 {
+    transition-delay: 2250ms;
+}
+
+#component.radial .sqr-171 {
+    transition-delay: 2275ms;
+}
+
+#component.radial .sqr-172 {
+    transition-delay: 2300ms;
+}
+
+#component.radial .sqr-173 {
+    transition-delay: 2325ms;
+}
+
+#component.radial .sqr-174 {
+    transition-delay: 2350ms;
+}
+
+#component.disintegration .sqr-1 {
+    transition-delay: 2003ms;
+}
+
+#component.disintegration .sqr-2 {
+    transition-delay: 2006ms;
+}
+
+#component.disintegration .sqr-3 {
+    transition-delay: 2009ms;
+}
+
+#component.disintegration .sqr-4 {
+    transition-delay: 2012ms;
+}
+
+#component.disintegration .sqr-5 {
+    transition-delay: 2015ms;
+}
+
+#component.disintegration .sqr-6 {
+    transition-delay: 2018ms;
+}
+
+#component.disintegration .sqr-7 {
+    transition-delay: 2021ms;
+}
+
+#component.disintegration .sqr-8 {
+    transition-delay: 2024ms;
+}
+
+#component.disintegration .sqr-9 {
+    transition-delay: 2027ms;
+}
+
+#component.disintegration .sqr-10 {
+    transition-delay: 2030ms;
+}
+
+#component.disintegration .sqr-11 {
+    transition-delay: 2033ms;
+}
+
+#component.disintegration .sqr-12 {
+    transition-delay: 2036ms;
+}
+
+#component.disintegration .sqr-13 {
+    transition-delay: 2039ms;
+}
+
+#component.disintegration .sqr-14 {
+    transition-delay: 2042ms;
+}
+
+#component.disintegration .sqr-15 {
+    transition-delay: 2045ms;
+}
+
+#component.disintegration .sqr-16 {
+    transition-delay: 2048ms;
+}
+
+#component.disintegration .sqr-17 {
+    transition-delay: 2051ms;
+}
+
+#component.disintegration .sqr-18 {
+    transition-delay: 2054ms;
+}
+
+#component.disintegration .sqr-19 {
+    transition-delay: 2057ms;
+}
+
+#component.disintegration .sqr-20 {
+    transition-delay: 2060ms;
+}
+
+#component.disintegration .sqr-21 {
+    transition-delay: 2063ms;
+}
+
+#component.disintegration .sqr-22 {
+    transition-delay: 2066ms;
+}
+
+#component.disintegration .sqr-23 {
+    transition-delay: 2069ms;
+}
+
+#component.disintegration .sqr-24 {
+    transition-delay: 2072ms;
+}
+
+#component.disintegration .sqr-25 {
+    transition-delay: 2075ms;
+}
+
+#component.disintegration .sqr-26 {
+    transition-delay: 2078ms;
+}
+
+#component.disintegration .sqr-27 {
+    transition-delay: 2081ms;
+}
+
+#component.disintegration .sqr-28 {
+    transition-delay: 2084ms;
+}
+
+#component.disintegration .sqr-29 {
+    transition-delay: 2087ms;
+}
+
+#component.disintegration .sqr-30 {
+    transition-delay: 2090ms;
+}
+
+#component.disintegration .sqr-31 {
+    transition-delay: 2093ms;
+}
+
+#component.disintegration .sqr-32 {
+    transition-delay: 2096ms;
+}
+
+#component.disintegration .sqr-33 {
+    transition-delay: 2099ms;
+}
+
+#component.disintegration .sqr-34 {
+    transition-delay: 2102ms;
+}
+
+#component.disintegration .sqr-35 {
+    transition-delay: 2105ms;
+}
+
+#component.disintegration .sqr-36 {
+    transition-delay: 2108ms;
+}
+
+#component.disintegration .sqr-37 {
+    transition-delay: 2111ms;
+}
+
+#component.disintegration .sqr-38 {
+    transition-delay: 2114ms;
+}
+
+#component.disintegration .sqr-39 {
+    transition-delay: 2117ms;
+}
+
+#component.disintegration .sqr-40 {
+    transition-delay: 2120ms;
+}
+
+#component.disintegration .sqr-41 {
+    transition-delay: 2123ms;
+}
+
+#component.disintegration .sqr-42 {
+    transition-delay: 2126ms;
+}
+
+#component.disintegration .sqr-43 {
+    transition-delay: 2129ms;
+}
+
+#component.disintegration .sqr-44 {
+    transition-delay: 2132ms;
+}
+
+#component.disintegration .sqr-45 {
+    transition-delay: 2135ms;
+}
+
+#component.disintegration .sqr-46 {
+    transition-delay: 2138ms;
+}
+
+#component.disintegration .sqr-47 {
+    transition-delay: 2141ms;
+}
+
+#component.disintegration .sqr-48 {
+    transition-delay: 2144ms;
+}
+
+#component.disintegration .sqr-49 {
+    transition-delay: 2147ms;
+}
+
+#component.disintegration .sqr-50 {
+    transition-delay: 2150ms;
+}
+
+#component.disintegration .sqr-51 {
+    transition-delay: 2153ms;
+}
+
+#component.disintegration .sqr-52 {
+    transition-delay: 2156ms;
+}
+
+#component.disintegration .sqr-53 {
+    transition-delay: 2159ms;
+}
+
+#component.disintegration .sqr-54 {
+    transition-delay: 2162ms;
+}
+
+#component.disintegration .sqr-55 {
+    transition-delay: 2165ms;
+}
+
+#component.disintegration .sqr-56 {
+    transition-delay: 2168ms;
+}
+
+#component.disintegration .sqr-57 {
+    transition-delay: 2171ms;
+}
+
+#component.disintegration .sqr-58 {
+    transition-delay: 2174ms;
+}
+
+#component.disintegration .sqr-59 {
+    transition-delay: 2177ms;
+}
+
+#component.disintegration .sqr-60 {
+    transition-delay: 2180ms;
+}
+
+#component.disintegration .sqr-61 {
+    transition-delay: 2183ms;
+}
+
+#component.disintegration .sqr-62 {
+    transition-delay: 2186ms;
+}
+
+#component.disintegration .sqr-63 {
+    transition-delay: 2189ms;
+}
+
+#component.disintegration .sqr-64 {
+    transition-delay: 2192ms;
+}
+
+#component.disintegration .sqr-65 {
+    transition-delay: 2195ms;
+}
+
+#component.disintegration .sqr-66 {
+    transition-delay: 2198ms;
+}
+
+#component.disintegration .sqr-67 {
+    transition-delay: 2201ms;
+}
+
+#component.disintegration .sqr-68 {
+    transition-delay: 2204ms;
+}
+
+#component.disintegration .sqr-69 {
+    transition-delay: 2207ms;
+}
+
+#component.disintegration .sqr-70 {
+    transition-delay: 2210ms;
+}
+
+#component.disintegration .sqr-71 {
+    transition-delay: 2213ms;
+}
+
+#component.disintegration .sqr-72 {
+    transition-delay: 2216ms;
+}
+
+#component.disintegration .sqr-73 {
+    transition-delay: 2219ms;
+}
+
+#component.disintegration .sqr-74 {
+    transition-delay: 2222ms;
+}
+
+#component.disintegration .sqr-75 {
+    transition-delay: 2225ms;
+}
+
+#component.disintegration .sqr-76 {
+    transition-delay: 2228ms;
+}
+
+#component.disintegration .sqr-77 {
+    transition-delay: 2231ms;
+}
+
+#component.disintegration .sqr-78 {
+    transition-delay: 2234ms;
+}
+
+#component.disintegration .sqr-79 {
+    transition-delay: 2237ms;
+}
+
+#component.disintegration .sqr-80 {
+    transition-delay: 2240ms;
+}
+
+#component.disintegration .sqr-81 {
+    transition-delay: 2243ms;
+}
+
+#component.disintegration .sqr-82 {
+    transition-delay: 2246ms;
+}
+
+#component.disintegration .sqr-83 {
+    transition-delay: 2249ms;
+}
+
+#component.disintegration .sqr-84 {
+    transition-delay: 2252ms;
+}
+
+#component.disintegration .sqr-85 {
+    transition-delay: 2255ms;
+}
+
+#component.disintegration .sqr-86 {
+    transition-delay: 2258ms;
+}
+
+#component.disintegration .sqr-87 {
+    transition-delay: 2261ms;
+}
+
+#component.disintegration .sqr-88 {
+    transition-delay: 2264ms;
+}
+
+#component.disintegration .sqr-89 {
+    transition-delay: 2267ms;
+}
+
+#component.disintegration .sqr-90 {
+    transition-delay: 2270ms;
+}
+
+#component.disintegration .sqr-91 {
+    transition-delay: 2273ms;
+}
+
+#component.disintegration .sqr-92 {
+    transition-delay: 2276ms;
+}
+
+#component.disintegration .sqr-93 {
+    transition-delay: 2279ms;
+}
+
+#component.disintegration .sqr-94 {
+    transition-delay: 2282ms;
+}
+
+#component.disintegration .sqr-95 {
+    transition-delay: 2285ms;
+}
+
+#component.disintegration .sqr-96 {
+    transition-delay: 2288ms;
+}
+
+#component.disintegration .sqr-97 {
+    transition-delay: 2291ms;
+}
+
+#component.disintegration .sqr-98 {
+    transition-delay: 2294ms;
+}
+
+#component.disintegration .sqr-99 {
+    transition-delay: 2297ms;
+}
+
+#component.disintegration .sqr-100 {
+    transition-delay: 2300ms;
+}
+
+#component.disintegration .sqr-101 {
+    transition-delay: 2303ms;
+}
+
+#component.disintegration .sqr-102 {
+    transition-delay: 2306ms;
+}
+
+#component.disintegration .sqr-103 {
+    transition-delay: 2309ms;
+}
+
+#component.disintegration .sqr-104 {
+    transition-delay: 2312ms;
+}
+
+#component.disintegration .sqr-105 {
+    transition-delay: 2315ms;
+}
+
+#component.disintegration .sqr-106 {
+    transition-delay: 2318ms;
+}
+
+#component.disintegration .sqr-107 {
+    transition-delay: 2321ms;
+}
+
+#component.disintegration .sqr-108 {
+    transition-delay: 2324ms;
+}
+
+#component.disintegration .sqr-109 {
+    transition-delay: 2327ms;
+}
+
+#component.disintegration .sqr-110 {
+    transition-delay: 2330ms;
+}
+
+#component.disintegration .sqr-111 {
+    transition-delay: 2333ms;
+}
+
+#component.disintegration .sqr-112 {
+    transition-delay: 2336ms;
+}
+
+#component.disintegration .sqr-113 {
+    transition-delay: 2339ms;
+}
+
+#component.disintegration .sqr-114 {
+    transition-delay: 2342ms;
+}
+
+#component.disintegration .sqr-115 {
+    transition-delay: 2345ms;
+}
+
+#component.disintegration .sqr-116 {
+    transition-delay: 2348ms;
+}
+
+#component.disintegration .sqr-117 {
+    transition-delay: 2351ms;
+}
+
+#component.disintegration .sqr-118 {
+    transition-delay: 2354ms;
+}
+
+#component.disintegration .sqr-119 {
+    transition-delay: 2357ms;
+}
+
+#component.disintegration .sqr-120 {
+    transition-delay: 2360ms;
+}
+
+#component.disintegration .sqr-121 {
+    transition-delay: 2363ms;
+}
+
+#component.disintegration .sqr-122 {
+    transition-delay: 2366ms;
+}
+
+#component.disintegration .sqr-123 {
+    transition-delay: 2369ms;
+}
+
+#component.disintegration .sqr-124 {
+    transition-delay: 2372ms;
+}
+
+#component.disintegration .sqr-125 {
+    transition-delay: 2375ms;
+}
+
+#component.disintegration .sqr-126 {
+    transition-delay: 2378ms;
+}
+
+#component.disintegration .sqr-127 {
+    transition-delay: 2381ms;
+}
+
+#component.disintegration .sqr-128 {
+    transition-delay: 2384ms;
+}
+
+#component.disintegration .sqr-129 {
+    transition-delay: 2387ms;
+}
+
+#component.disintegration .sqr-130 {
+    transition-delay: 2390ms;
+}
+
+#component.disintegration .sqr-131 {
+    transition-delay: 2393ms;
+}
+
+#component.disintegration .sqr-132 {
+    transition-delay: 2396ms;
+}
+
+#component.disintegration .sqr-133 {
+    transition-delay: 2399ms;
+}
+
+#component.disintegration .sqr-134 {
+    transition-delay: 2402ms;
+}
+
+#component.disintegration .sqr-135 {
+    transition-delay: 2405ms;
+}
+
+#component.disintegration .sqr-136 {
+    transition-delay: 2408ms;
+}
+
+#component.disintegration .sqr-137 {
+    transition-delay: 2411ms;
+}
+
+#component.disintegration .sqr-138 {
+    transition-delay: 2414ms;
+}
+
+#component.disintegration .sqr-139 {
+    transition-delay: 2417ms;
+}
+
+#component.disintegration .sqr-140 {
+    transition-delay: 2420ms;
+}
+
+#component.disintegration .sqr-141 {
+    transition-delay: 2423ms;
+}
+
+#component.disintegration .sqr-142 {
+    transition-delay: 2426ms;
+}
+
+#component.disintegration .sqr-143 {
+    transition-delay: 2429ms;
+}
+
+#component.disintegration .sqr-144 {
+    transition-delay: 2432ms;
+}
+
+#component.disintegration .sqr-145 {
+    transition-delay: 2435ms;
+}
+
+#component.disintegration .sqr-146 {
+    transition-delay: 2438ms;
+}
+
+#component.disintegration .sqr-147 {
+    transition-delay: 2441ms;
+}
+
+#component.disintegration .sqr-148 {
+    transition-delay: 2444ms;
+}
+
+#component.disintegration .sqr-149 {
+    transition-delay: 2447ms;
+}
+
+#component.disintegration .sqr-150 {
+    transition-delay: 2450ms;
+}
+
+#component.disintegration .sqr-151 {
+    transition-delay: 2453ms;
+}
+
+#component.disintegration .sqr-152 {
+    transition-delay: 2456ms;
+}
+
+#component.disintegration .sqr-153 {
+    transition-delay: 2459ms;
+}
+
+#component.disintegration .sqr-154 {
+    transition-delay: 2462ms;
+}
+
+#component.disintegration .sqr-155 {
+    transition-delay: 2465ms;
+}
+
+#component.disintegration .sqr-156 {
+    transition-delay: 2468ms;
+}
+
+#component.disintegration .sqr-157 {
+    transition-delay: 2471ms;
+}
+
+#component.disintegration .sqr-158 {
+    transition-delay: 2474ms;
+}
+
+#component.disintegration .sqr-159 {
+    transition-delay: 2477ms;
+}
+
+#component.disintegration .sqr-160 {
+    transition-delay: 2480ms;
+}
+
+#component.disintegration .sqr-161 {
+    transition-delay: 2483ms;
+}
+
+#component.disintegration .sqr-162 {
+    transition-delay: 2486ms;
+}
+
+#component.disintegration .sqr-163 {
+    transition-delay: 2489ms;
+}
+
+#component.disintegration .sqr-164 {
+    transition-delay: 2492ms;
+}
+
+#component.disintegration .sqr-165 {
+    transition-delay: 2495ms;
+}
+
+#component.disintegration .sqr-166 {
+    transition-delay: 2498ms;
+}
+
+#component.disintegration .sqr-167 {
+    transition-delay: 2501ms;
+}
+
+#component.disintegration .sqr-168 {
+    transition-delay: 2504ms;
+}
+
+#component.disintegration .sqr-169 {
+    transition-delay: 2507ms;
+}
+
+#component.disintegration .sqr-170 {
+    transition-delay: 2510ms;
+}
+
+#component.disintegration .sqr-171 {
+    transition-delay: 2513ms;
+}
+
+#component.disintegration .sqr-172 {
+    transition-delay: 2516ms;
+}
+
+#component.disintegration .sqr-173 {
+    transition-delay: 2519ms;
+}
+
+#component.disintegration .sqr-174 {
+    transition-delay: 2522ms;
+}
+
+button#component.disintegration:hover .sqr {
+    transform: translateY(-20px) rotateY(90deg) scale(0.1);
+}
+
+body {
+    background: #1e1e1e;
+    display: flex;
+    height: 100vh;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #f5d546;
+    padding: 0 5px 3px 5px;
+    color: #111;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22 px;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+    border: 1px #f5d546 solid;
+    border-radius: 5px;
+}
+
+h1,
+p,
+#shot .title::before {
+    font-weight: 0;
+}
+
+p,
+#shot .title::before {
+    opacity: 0;
+    margin: 0 0 10px 0;
+    letter-spacing: 0px;
+}
+
+.t {
+    border-left: 6px solid #f5d546;
+    height: 500px;
+}
+
+a {
+    color: #f5d546;
+}
+
+a:hover {
+    background: #f5d546;
+    color: #111;
+    text-decoration: none;
+}
+
+#shot {
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+#shot .card {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background: linear-gradient(0deg, rgba(245, 213, 70, .1) 0%, rgba(17, 17, 17, 0) 100%);
+    border: 1px #f5d546 solid;
+    border-radius: 5px;
+    animation: entrance 400ms 800ms linear backwards 1;
+}
+
+#shot .card #component {
+    margin: auto;
+}
+
+#shot .description {
+    animation: entrance 400ms 1000ms linear backwards 1;
+}
+
+#shot .title {
+    height: 100%;
+    width: 5px;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    background: #f5d546;
+    animation: entrance 400ms 1200ms linear backwards 1;
+}
+
+#shot .title::before {
+    content: 'sci-fi ui #1';
+    text-transform: uppercase;
+    text-align: right;
+    position: absolute;
+    left: -90px;
+    top: -17px;
+    transform-origin: 100% 100%;
+    transform: rotateZ(-90deg);
+}
+
+#shot .options {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    right: -220px;
+    animation: entrance 400ms 1400ms linear backwards 1;
+}
+
+#shot .options button {
+    height: 40px;
+    padding: 0 10px;
+    margin: 0 10px 15px 0;
+    border: 2px #111 solid;
+    outline: 1px #f5d546 solid;
+    background-color: transparent;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+    transition: 300ms all ease-out;
+}
+
+#shot .options button:hover,
+#shot .options button:focus,
+#shot .options button.active {
+    background-color: rgba(245, 213, 70, .5);
+}
+
+#shot .options button.active {
+    border: 2px #f5d546 solid;
+    background-color: rgba(245, 213, 70, 1);
+    color: #111;
+}
+
+@-webkit-keyframes entrance {
+    to,
+    20%,
+    40%,
+    60%,
+    80% {
+        opacity: 1;
+    }
+    from,
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        opacity: 0;
+    }
+}
