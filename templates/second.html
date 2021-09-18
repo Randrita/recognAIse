@@ -25,7 +25,7 @@
         <p>Upload Your Folder</p>
         <div class="btns">
         <form action="" methods="POST" style="display:none;"  enctype="multipart/form-data">
-            <input type="file" id="btn-0" style="display:none;" onclick="setAnim(this)" class="d-none" name="files" multiple>
+            <input type="file" id="btn-0" style="display:none;" onclick="setAnim(this)" class="d-none" name="files[]" multiple>
         </form>
 
         <button id="btn-1" onclick="document.getElementById('btn-0').click();return false;">Upload</button>
