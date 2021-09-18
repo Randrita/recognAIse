@@ -11,8 +11,17 @@ from urllib.request import urlopen
 from json import load
 import json
 import requests
+from pprint import pprint
+
+from flask import Flask, flash, request, redirect, url_for
+from werkzeug.utils import secure_filename
+
+UPLOAD_FOLDER = './uploads'
 
 app = Flask(__name__)
+
+app.config['SECRET_KEY'] = 'gyuerho834dtrui3yr8ury39ry3yr9p834m'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 
 @app.route('/')
@@ -21,7 +30,26 @@ def index():
 
 @app.route('/second.html' ,methods=['GET','POST'])
 def second():
-   return render_template('second.html')
+   if request.method == 'POST':
+         # check if the post request has the file part
+         pprint(request.files)
+         # pprint(request.post)
+         if 'files' not in request.files:
+               flash('No file part')
+               return redirect(request.url)
+         file = request.files['files']
+         pprint(file)
+         # # If the user does not select a file, the browser submits an
+         # # empty file without a filename.
+         # if file.filename == '':
+         #       flash('No selected file')
+         #       return redirect(request.url)
+         filename = secure_filename(file.filename)
+         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+         return render_template('second.html')
+   else:
+         return render_template('second.html')
+            
 
 
 

@@ -20,29 +20,25 @@ btn[1].classList.add('active')
 value = btn[1].innerText;
 addClass('component', value);
 
-function upload() {
-    var filesInput = document.getElementById("btn-0");
-    filesInput.addEventListener("change", function(event) {
-        var files = event.target.files; //FileList object
-        var output = document.getElementById("result");
-        for (var i = 0; i < files.length; i++) {
-            var file = files[i];
-            //Only pics
-            if (!file.type.match('image'))
-                continue;
-            var picReader = new FileReader();
-            picReader.addEventListener("load", function(event) {
-                var picFile = event.target;
-                var div = document.createElement("div");
-                div.innerHTML = "<img class='thumbnail' src='" + picFile.result + "'" +
-                    "title='" + picFile.name + "'/>";
-                output.insertBefore(div, null);
-            });
-            //Read the image
-            picReader.readAsDataURL(file);
-        }
-    });
+var filesInput = document.getElementById("btn-0");
+filesInput.addEventListener("change", function(event) {
+    var files = event.target.files; //FileList object
+    var output = document.getElementById("result");
+    if (files.length > 0){
+        form = filesInput.form;
+        form.submit();
+    }
+});
 
-}
 
-upload()
+// $('form').submit(function(e){
+// 	// Stop the form submitting
+//   	e.preventDefault();
+//   	// Do whatever it is you wish to do
+//   	//...
+//   	// Now submit it 
+//     // Don't use $(this).submit() FFS!
+//   	// You'll never leave this function & smash the call stack! :D
+//   	// e.currentTarget.submit();
+//     return false;
+// });
