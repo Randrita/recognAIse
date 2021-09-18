@@ -7,25 +7,37 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="second.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='second.css') }}">
+
     </head>
     <body>
       <div id="shot">
     <div class="card"><button id="component">
-            
+         <output id='result' /> 
         </button></div>
     <div class="description">
         <h1 style="font-size:30 px !important">View</h1>
     
     </div>
     <div class="title"></div>
+    <form action="" method="POST">
     <div class="options">
         <p>Upload Your Folder</p>
-        <div class="btns"><button id="btn-0" onclick="setAnim(this)">Upload</button><button id="btn-1" onclick="setAnim(this)">Download</button></div>
-        
+        <div class="btns">
+        <form action="" methods="POST">
+        <input type="files" id="btn-0" onclick="setAnim(this)" name="foldername">
+        </form>
+
+        <button id="btn-1" onclick="setAnim(this);document.getElementById('btn-0')[0].click()">Upload</button>
+
+        <button id="btn-2" onclick="setAnim(this)">Download</button>
+        </div>
+       
     </div>
+    </form> 
+
 </div>
         
-        <script src="second.js" async defer></script>
+        <script src="./static/second.js" async defer></script>
     </body>
 </html>
