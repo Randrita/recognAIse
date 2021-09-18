@@ -34,18 +34,19 @@ def second():
          # check if the post request has the file part
          pprint(request.files)
          # pprint(request.post)
-         if 'files' not in request.files:
+         if 'files[]' not in request.files:
                flash('No file part')
                return redirect(request.url)
-         file = request.files['files']
-         pprint(file)
+         files = request.files.getlist("files[]")
+         pprint(files)
          # # If the user does not select a file, the browser submits an
          # # empty file without a filename.
          # if file.filename == '':
          #       flash('No selected file')
          #       return redirect(request.url)
-         filename = secure_filename(file.filename)
-         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+         for file in files:
+            filename = secure_filename(file.filename)
+            file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
          return render_template('second.html')
    else:
          return render_template('second.html')
