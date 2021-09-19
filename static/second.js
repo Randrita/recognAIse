@@ -1,7 +1,7 @@
 function addClass(component, className) {
     var e = document.getElementById(component);
-    e.removeAttribute('class');
-    e.classList.add(className);
+    // e.removeAttribute('class');
+    // e.classList.add(className);
 };
 
 function setAnim(e) {
@@ -23,7 +23,6 @@ addClass('component', value);
 var filesInput = document.getElementById("btn-0");
 filesInput.addEventListener("change", function(event) {
     var files = event.target.files; //FileList object
-    var output = document.getElementById("result");
     if (files.length > 0){
         form = filesInput.form;
         form.submit();

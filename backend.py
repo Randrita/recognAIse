@@ -4,7 +4,7 @@ import os
 import pytesseract
 import cv2
 import numpy as np
-
+import base64
 
 #import urllib.urlopen
 from urllib.request import urlopen
@@ -38,16 +38,18 @@ def second():
                flash('No file part')
                return redirect(request.url)
          files = request.files.getlist("files[]")
-         pprint(files)
-         # # If the user does not select a file, the browser submits an
-         # # empty file without a filename.
-         # if file.filename == '':
-         #       flash('No selected file')
-         #       return redirect(request.url)
+         img = base64.b64encode(files[0].read()).decode()
          for file in files:
+                     
+            # If the user does not select a file, the browser submits an
+            # empty file without a filename.
+            if file.filename == '':
+                  flash('No selected file')
+                  return redirect(request.url)
+
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-         return render_template('second.html')
+         return render_template('second.html', show=img, ext=files[0].filename.split('.')[-1])
    else:
          return render_template('second.html')
             

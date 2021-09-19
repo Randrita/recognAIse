@@ -12,9 +12,27 @@
     </head>
     <body>
       <div id="shot">
-    <div class="card"><button id="component">
-         <output id='result' /> 
-        </button></div>
+    <div class="card">
+         {% if show %}
+         <img src="data:image/{{ext}};base64,{{ show }}">
+         <div style="
+            width: 100%;
+            padding-top: 20%;
+            margin-left: 0.75rem;
+            color: #f5d546;
+        
+        ">
+            <span class="text">John Doe</span>
+            <br>
+            <span class="text">91876504327</span>
+            <br>
+            <span class="text">john.doe@mail.com</span>
+            <br>
+            <span class="text">9999 8888 7777 6666</span>
+        </div>
+         {% endif %}
+         
+    </div>
     <div class="description">
         <h1 style="font-size:30 px !important">View</h1>
     
