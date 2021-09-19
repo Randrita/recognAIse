@@ -12,6 +12,10 @@ button#component {
     font-family: 'Barlow', sans-serif;
 }
 
+span.text {
+    line-height: 2;
+}
+
 button#component:focus {
     outline: none;
 }
