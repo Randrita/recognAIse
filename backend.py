@@ -5,6 +5,7 @@ import pytesseract
 import cv2
 import numpy as np
 import base64
+from main import OCR
 
 #import urllib.urlopen
 from urllib.request import urlopen
@@ -38,9 +39,12 @@ def second():
                flash('No file part')
                return redirect(request.url)
          files = request.files.getlist("files[]")
-         img = base64.b64encode(files[0].read()).decode()
-         for file in files:
-                     
+         
+         img = base64.b64encode(open('output/1.jpg', 'rb').read()).decode()
+      #    img = base64.b64encode(files[0].read()).decode()
+         img_dict = {}
+         for i in range(len(files)):
+            file = files[i]
             # If the user does not select a file, the browser submits an
             # empty file without a filename.
             if file.filename == '':
@@ -49,11 +53,13 @@ def second():
 
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-         return render_template('second.html', show=img, ext=files[0].filename.split('.')[-1])
+            # open(filename, 'wb+').write( file.read() )
+      #    OCR()
+         return render_template('second.html', show=img, ext='jpg')
    else:
          return render_template('second.html')
             
-
+         
 
 
 

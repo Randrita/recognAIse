@@ -5,6 +5,7 @@ function addClass(component, className) {
 };
 
 function setAnim(e) {
+    return
     var btn = document.getElementsByTagName('button')
     for (i = 0; i < btn.length; i++) {
         btn[i].classList.remove('active');
@@ -23,7 +24,7 @@ addClass('component', value);
 var filesInput = document.getElementById("btn-0");
 filesInput.addEventListener("change", function(event) {
     var files = event.target.files; //FileList object
-    if (files.length > 0){
+    if (files.length > 0) {
         form = filesInput.form;
         form.submit();
     }
