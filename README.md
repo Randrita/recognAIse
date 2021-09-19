@@ -39,7 +39,7 @@ We used tesseract to extract texts and openCV to place the view on the images.*
 
 
 <p align="center">
-  <img width="460" height="460" src="approch.jpeg">
+  <img width="460" height="460" src="https://github.com/Randrita/recognAIse/blob/main/approch.jpeg">
 </p>
 
 CHALLENGES WE RAN INTO :confused:
